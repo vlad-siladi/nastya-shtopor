@@ -1,0 +1,224 @@
+/* primery text color #212121 */
+/* accent #2196F3 */
+/* seconadary text color #757575 */
+/* footer background color #2F303A */
+/* header background color #FFFFFF */
+/* first section background color  */
+/* second section background color #F5F4FA */
+/* logo color #000000 */
+
+/* фон шапки #FFFFFF */
+/* фон тела #E5E5E5 */
+/* фон подвала #2F303A */
+/* основной цвет текста #212121 */
+/* вторичный цвет текста #757575 */
+/* акцент #2196F3 */
+/* фон кнопки #F5F4FA */
+/* акцент кнопок: фон #2196F3    текст #FFFFFF */
+/* адрес #FFFFFF */
+/* контакты  в подвале rgba(255, 255, 255, 0,6) */
+
+:root {
+  --primery-text-color: #212121;
+  --accent: #2196f3;
+  --secondary-text-color: #757575;
+  --footer-bg-color: #2f303a;
+  --bg-color: #ffffff;
+  --second-section-bg-color: #e5e5e5;
+  --logo-color: #2196f3;
+  --button-bg-color: #188ce8;
+  --adress-link: rgba(255, 255, 255, 0.6);
+}
+/* тело */
+.body {
+  background-color: var(--bg-color);
+  font-family: roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* логотип */
+.logo {
+  color: var(--logo-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-studio {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.site-nav {
+  cursor: pointer;
+
+  color: var(--primery-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+}
+
+.corrent {
+  color: var(--accent);
+}
+
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--accent);
+}
+
+.auth-nav {
+  color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+}
+.auth-nav:hover {
+  color: var(--accent);
+}
+.auth-nav:focus {
+  color: var(--accent);
+}
+
+/* list-style */
+.list {
+  list-style: none;
+}
+
+/* Банер с кнопкой */
+.banner {
+  background-color: var(--footer-bg-color);
+}
+.banner-title {
+  color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.banner-button {
+  color: #ffffff;
+  background-color: var(--button-bg-color);
+}
+
+/* Список преимуществ */
+
+.advantages-title {
+  color: var(--primery-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.advantages-text {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+/* Чем мы занимаемся */
+.section-title {
+  color: var(--primery-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Команда  */
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  color: var(--primery-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.team-text {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+/* подвал с адрессами */
+.footer-studio {
+  color: #ffffff;
+}
+.footer {
+  background-color: var(--footer-bg-color);
+}
+.address-nav {
+  color: #ffffff;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.footer-a {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer-a:hover,
+.footer-a:focus {
+  color: var(--accent);
+}
+"."km? .button {
+  list-style: none;
+
+  color: var(--primery-text-color);
+  background-color: #f5f4fa;
+}
+
+.button:hover {
+  color: #ffffff;
+  background-color: var(--button-bg-color);
+}
+
+/* Список портфолио */
+
+.portfolio-title {
+  color: var(--primery-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+  color: var(--secondary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
